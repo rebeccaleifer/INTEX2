@@ -5,7 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Models\" />
   </ItemGroup>
 
+=======
+    <None Remove="Views\Account\" />
+    <None Remove="Models\ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Account\" />
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
+>>>>>>> caed5ce (Login view, model, css)
 </Project>
